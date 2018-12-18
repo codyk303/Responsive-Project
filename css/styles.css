@@ -51,7 +51,7 @@ li {
   font-weight: bold;
   font-style: oblique;
   font-family: ubuntu;
-  max-width:50%;
+  width:70%;
   padding:10px;
   margin-left: auto;
   margin-right: auto;
@@ -123,7 +123,6 @@ a:active {
     margin-right:0;
     margin-left:50%;
     padding-top: 0;
-    padding-right: 100px;
     padding-left: 100px;
     float:right;
   }
@@ -151,6 +150,7 @@ section {
   .introduction{
     margin-top: 0;
     margin-bottom: 0;
+    width: 90%;
 }
   .center {
     padding-top: 20px;
@@ -159,6 +159,52 @@ section {
   img {
     width:40%;
     height:150px;
+  }
+  .search {
+    margin-top: 0px;
+  }
+  .marketing {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .marketing img {
+    margin-top: 15px;
+  }
+  .marketing p {
+    margin-top: 40px;
+  }
+  .gallery {
+    margin-top: 15px;
+  }
+  .gps {
+    padding-top: 5px;
+  }
+  .calculator {
+    padding-top: 15px;
+    margin-top: 5px;
+  }
+  .search img {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .statement {
+    margin-top: 50px;
+  }
+  .primary {
+    padding-right: 10px;
+    margin-right: 5px;
+    width: 100%;
+  }
+  .secondary {
+    padding-left: 10px;
+    margin-left: 5px;
+    width:100%;
+  }
+  .last {
+    padding-left: 10px;
+    margin-left: 5px;
+    width:100%;
   }
 }
 @media (min-width:1024px){
@@ -205,10 +251,13 @@ section {
 .opening {
   float:right;
   width:45%;
-  height:200px;
+  height:300px;
   position:relative;
   display:inline-block;
   margin-left: 75%;
+}
+.opening img {
+  height:350px;
 }
 .background {
   margin-bottom: 100px;
@@ -218,7 +267,10 @@ section {
   width:50%;
   margin-bottom: 50px;
   position:relative;
-  top:-120px;
+  margin-top: 50px;
+  padding-top: 10px;
+  top:-250px;
+  font-size: 35px;
 }
 #top {
   margin-top: 50px;
@@ -229,6 +281,7 @@ section {
 }
 .introduction {
   margin-bottom: 0;
+  font-size: 20px;
 }
 .heading {
   margin-bottom: 15px;
@@ -239,13 +292,49 @@ section {
   margin-bottom: 25px;
   font-size: 40px;
   position:relative;
-  top:-75px;
+  top:-100px;
+  padding-right: 100px;
 }
 footer {
-  margin-top: -400px;
+  margin-top: -800px;
   padding-top: 50px;
   padding-bottom: 25px;
   background-color: lightgrey;
+}
+header {
+  margin-bottom: 20px;
+}
+.travel p {
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+.calculator, .gallery {
+  position:relative;
+  top:-955px;
+}
+.gallery p {
+  margin-top: 15px;
+}
+.gallery img {
+  margin-bottom: 10px;
+}
+.calculator img {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.search img {
+  padding-left: 10px;
+  margin-left: 0;
+}
+.portfolio1 img {
+  margin-right: 0;
+}
+.gps img {
+  margin-left: 0;
+  margin-top: 15px;
+}
+.marketing img {
+  margin-right: 0;
 }
 
 
