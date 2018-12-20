@@ -17,6 +17,7 @@ li {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+  background-color: lightgrey;
   }
 .main-nav {
   line-height: 50px;
@@ -27,6 +28,7 @@ li {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-right: 10px;
   background-color: white;
 }
 .background {
@@ -50,7 +52,7 @@ li {
   text-align: center;
   font-weight: bold;
   font-style: oblique;
-  font-family: ubuntu;
+  font-family: 'Ubuntu', sans-serif;
   width:70%;
   padding:10px;
   margin-left: auto;
@@ -109,10 +111,11 @@ a:active {
   .main-nav li{
     display:inline-block;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 5%;
   }
-  nav {
-    text-align: center;
+  .main-nav {
+    padding-left: 20%;
+    background-color:lightgrey;
   }
   .opening {
     float: right;
@@ -247,6 +250,7 @@ section {
 .main-nav {
   float:right;
   margin-top: 50px;
+  background-color: lightgrey;
 }
 .opening {
   float:right;
@@ -258,6 +262,11 @@ section {
 }
 .opening img {
   height:350px;
+  width:90%;
+  margin-right: 15px;
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 0;
 }
 .background {
   margin-bottom: 100px;
@@ -310,17 +319,23 @@ header {
 }
 .calculator, .gallery {
   position:relative;
-  top:-955px;
+  top:-1005px;
 }
 .gallery p {
   margin-top: 15px;
 }
 .gallery img {
   margin-bottom: 10px;
+  margin-top: 40px;
+  padding:10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .calculator img {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
 }
 .search img {
   padding-left: 10px;
@@ -331,10 +346,21 @@ header {
 }
 .gps img {
   margin-left: 0;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:10px;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+.gps h6 {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .marketing img {
+  margin-top: 0;
   margin-right: 0;
+  padding-right: 5px;
 }
 
 
